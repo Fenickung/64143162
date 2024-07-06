@@ -15,21 +15,21 @@ class HomeScreen extends StatelessWidget {
       body:Column(children: [
         Row(children: [
           Column(
-            Icons: (Icons.call)
+            children: [Icons: (Icons.call)
             container: Container(
               
-            )
+            )],
           ),
-          Column(
-            Icons: (Icons.near_me)
+          Column(children: [Icons: (Icons.near_me)
             container: Container(
               
-            )),
-          Column(
-            Icons: (Icons.share)
+            )],
+            ),
+          Column(children: [Icons: (Icons.share)
             container: Container(
               
-            )),
+            )],
+            ),
         ],)
       ],)
     );
