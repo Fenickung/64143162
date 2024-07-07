@@ -6,32 +6,28 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const Drawer(
-        child: Text('Test Drawer'),
-      ),
-      appBar: AppBar(
-        title: const Text('หน้าหลัก'),
-      ),
-      body:Column(children: [
-        Row(children: [
-          Column(
-            children: [Icons: (Icons.call)
-            container: Container(
-              
-            )],
-          ),
-          Column(children: [Icons: (Icons.near_me)
-            container: Container(
-              
-            )],
-            ),
-          Column(children: [Icons: (Icons.share)
-            container: Container(
-              
-            )],
-            ),
-        ],)
-      ],)
-    );
+        drawer: const Drawer(
+          child: Text('Test Drawer'),
+        ),
+        appBar: AppBar(
+          title: const Text('หน้าหลัก'),
+        ),
+        body: Column(
+          children: [
+            Row(
+              children: [
+                Column(
+                  children: [Icon(Icons.call), Container()],
+                ),
+                Column(
+                  children: [Icon(Icons.near_me), Container()],
+                ),
+                Column(
+                  children: [Icon(Icons.share), Container()],
+                ),
+              ],
+            )
+          ],
+        ));
   }
 }
